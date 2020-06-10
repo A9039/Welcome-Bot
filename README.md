@@ -29,10 +29,10 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 ```
 
 ## Features
-1. Auto role
-2. Welcome with a image
-3. Simple to use
-4. Easy to Change
+* Auto role
+* Welcome with a image
+* Simple to use
+* Easy to Change
 ![Welcome image](https://i.ibb.co/3cHTX2Y/Capture.png)
 
 ## Contributing
