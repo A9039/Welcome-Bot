@@ -33,6 +33,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 * Welcome with a image
 * Simple to use
 * Easy to Change
+
 ![Welcome image](https://i.ibb.co/3cHTX2Y/Capture.png)
 
 ## Contributing
