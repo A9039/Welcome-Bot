@@ -31,7 +31,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 1. Auto role
 2. Welcome with a image
 3. Simple to use
-4. 
+4. Easy to Change
 ![Welcome image](https://i.ibb.co/3cHTX2Y/Capture.png)
 
 ## Contributing
