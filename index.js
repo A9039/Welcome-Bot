@@ -33,7 +33,7 @@ client.login(TOKEN);
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setActivity(SetStatus, { type: 'PLAYING' });
-  client.user.setStatus("online"); // YOU CAN CHOUSE: online, idle, invisible, dnd (do not disturb)
+ // client.user.setStatus("idle"); // YOU CAN CHOUSE: online, idle, invisible, dnd (do not disturb)
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
