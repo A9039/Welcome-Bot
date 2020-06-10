@@ -19,7 +19,8 @@ const {
   WelcomeChannel,
   WelcomeMessage,
   AutoRole,
-  AutoRoleName
+  AutoRoleName,
+  SetStatus
 } = require("./config.json");
 const client = new Discord.Client({ disableEveryone: true });
 
@@ -31,12 +32,11 @@ client.login(TOKEN);
  */
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  //client.user.setActivity(`Welcome Bot`, { type: 'LISTENING' }); //SET GAME OF THE BOT
-  client.user.setStatus("invisible"); // YOU CAN CHOUSE: online, idle, invisible, dnd (do not disturb)
+  client.user.setActivity(SetStatus, { type: 'PLAYING' });
+  client.user.setStatus("online"); // YOU CAN CHOUSE: online, idle, invisible, dnd (do not disturb)
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
-
 
 
 
