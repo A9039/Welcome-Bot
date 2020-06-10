@@ -1,0 +1,17 @@
+{
+  "name": "Welcome Bot",
+  "description": "Simple Welcome Bot made by TheMaestroo#4901",
+  "version": "1.2.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1"
+  }
+}
