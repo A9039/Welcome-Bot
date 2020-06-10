@@ -22,7 +22,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "TOKEN": "", //TOKEN OF THE BOT
   "WelcomeChannel": "", //WELCOME CHANNEL NAME
   "WelcomeMessage": "Hey [[user]], Welcome to [[server]] you are member number: [[members]]", //WELCOME MESSAGE
-  "AutoRole": false, //if you want to enabel Auto role true/false
+  "AutoRole": false, //if you want to enable Auto role in the server | true/false
   "AutoRoleName": "", //AUTO ROLE NAME
   "SetStatus":"Welcome Bot | Invite ur friends :)" //SET GAME STATUS OF THE BOT
 }
