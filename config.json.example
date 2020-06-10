@@ -3,5 +3,6 @@
   "WelcomeChannel": "",
   "WelcomeMessage": "Hey [[user]], Welcome to [[server]] you are member number: [[members]]",
   "AutoRole": false,
-  "AutoRoleName": ""
+  "AutoRoleName": "",
+  "SetStatus":""
 }
