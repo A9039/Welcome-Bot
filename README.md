@@ -48,4 +48,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 ## Credits
 
 [@TheMaestroo#4901](https://github.com/TheMaestro0)
-[Need Help? join our server](https://discord.gg/hr7534X)
+
+## Need Help?
+
+[join our server](https://discord.gg/hr7534X)
