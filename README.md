@@ -33,6 +33,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 ## Features
 * Auto role
 * Welcome with a image
+* DM's Welcome Message
 * Simple to use
 * Easy to Change
 
