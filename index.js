@@ -39,17 +39,6 @@ client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
 
 
-
-/**
- * TEST THE BOT
- */
-client.on("message", message => {
-  if (message.content === "!join") {
-    client.emit("guildMemberAdd", message.member);
-  }
-});
-
-
 /**
  * CODE OF THE BOT
  */
