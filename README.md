@@ -20,11 +20,13 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 ```json
 {
   "TOKEN": "", //TOKEN OF THE BOT
-  "WelcomeChannel": "", //WELCOME CHANNEL NAME
+  "WelcomeChannel": "", //Welcome Channel Name
   "WelcomeMessage": "Hey [[user]], Welcome to [[server]] you are member number: [[members]]", //WELCOME MESSAGE
   "AutoRole": false, //if you want to enable Auto role in the server | true/false
-  "AutoRoleName": "", //AUTO ROLE NAME
-  "SetStatus":"Welcome Bot | Invite ur friends :)" //SET GAME STATUS OF THE BOT
+  "AutoRoleName": "", //Auto Role Name
+  "SetStatus":"Welcome Bot | Invite ur friends :)", //Set GAME-STATUS of the bot
+  "DM": true, //if you want to enable DM Welcome Message in the server | true/false
+  "DMMessage": "" // DM Welcome Message
 }
 ```
 
