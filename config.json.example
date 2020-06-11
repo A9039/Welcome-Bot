@@ -2,7 +2,9 @@
   "TOKEN": "",
   "WelcomeChannel": "",
   "WelcomeMessage": "Hey [[user]], Welcome to [[server]] you are member number: [[members]]",
-  "AutoRole": false,
+  "AutoRole": true,
   "AutoRoleName": "",
-  "SetStatus":""
+  "SetStatus":"",
+  "DM": true,
+  "DMMessage": ""
 }
