@@ -20,7 +20,9 @@ const {
   WelcomeMessage,
   AutoRole,
   AutoRoleName,
-  SetStatus
+  SetStatus,
+  DM,
+  DMMessage
 } = require("./config.json");
 const client = new Discord.Client({ disableEveryone: true });
 
@@ -87,5 +89,8 @@ client.on("guildMemberAdd", async member => {
 if(AutoRole === true){
 if (!role)return console.log("**Couldn't find that role**");
 if (role) return member.roles.add(role);    
+}
+if(DM === true){
+if (DMMessage) return member.send(DMMessage);    
 }else return;  
 });
