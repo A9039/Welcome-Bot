@@ -48,7 +48,7 @@ client.on("guildMemberAdd", async member => {
   const channel = member.guild.channels.cache.find(ch => ch.name === WelcomeChannel);
   if (!channel) return;
   let role = member.guild.roles.cache.find(role => role.name == AutoRoleName);
-  let background = await Canvas.loadImage("./welcome.png");
+  let background = await Canvas.loadImage("https://i.ibb.co/g3yR7pS/welcome.png");
   let avatar = await Canvas.loadImage(
     member.user.displayAvatarURL({ format: "png" })
   );
